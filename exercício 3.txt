@@ -1,0 +1,10 @@
+3.Explique a diferença entre os dois sets:
+
+set1=set('accggttaata')
+set2={'accggttaata'}
+
+R: A diferença entre esses dois exemplos está em que no
+primeiro caso (set1), a saída é única, ou seja, ela expõe todos os valores (strings)
+de forma única, {‘g’, ‘a’, ‘c’, ‘t’}, separada. No segundo caso, (set2), a saída são 
+todas as strings presentes no dicionário de forma conjunta e não separada, {‘accggttaata’}.
+O “dicionário” e o “set” são formas de armazenamento de dados.     
