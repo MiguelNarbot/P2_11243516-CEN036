@@ -1,0 +1,24 @@
+4.Descreva com sus próprias palavras o que o seguinte pseudocódigo faz. Faz uma avaliação desse pseudocódigo e relate quaisquer problemas que possa ter.
+Defina TOTAL com zero #total é que não tem nenhum número somado ainda. 
+Defina CONTADOR NOTAS como zero #inicia-se sem notas. Portanto, valor zero.
+While CONTADOR NOTAS é menor ou igual a dez
+      Entre (input) a seguinte nota
+      Some a nota ao TOTAL
+Defina a média da disciplina como o TOTAL dividido por dez (TOTAL/10) #média das 10 notas adicionadas. 
+Imprima na tela a média da disciplina #print para expor a média. 
+
+R: O problema inicial está em função “while”, que faz com que seja feito um loop infinito, sem parada, com as notas adicionadas no input. 
+Outro ponto, é se for colocado um valor float, flutuantes (reais) - exemplo de 2.5 - é dado um erro, o que impede, portanto, uma adição de notas, 
+valores decimais.    
+O código pode ser exemplificado por:
+
+total= 0
+contador_de_notas = 0
+
+while contador_de_notas <= 10:      
+  nota = int(input('coloque sua nota aqui:'))
+  somatória = nota + total
+
+MÉDIA_DA_DISCIPLINA = (total/10)
+
+print(MÉDIA_DA_DISCIPLINA)
