@@ -1,0 +1,8 @@
+1.Crie um repositório no github para esta prova. Escreva o endereço completo do seu repositório github como resposta desta pergunta. 
+Lembre-se que o repositório tem que ter o nome segundo o padrão:
+P2_NNNNNNN-CEN036
+Onde NNNNNNN é seu número USP. 
+A resposta tem que ter o endereço completo, iniciando com https://"
+O professor irá clonar seu repositório, com as respostas para os outros pontos da prova.
+
+R: https://github.com/MiguelNarbot/P2_11243516-CEN036.git
